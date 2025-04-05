@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textSaborPizzaT1">Escolha o sabor da Pizza:</string>
+    <string name="cbCalabresa">Calabresa (R$40,00)</string>
+    <string name="cbPortuguesa">Portuguesa (R$42,00)</string>
+    <string name="cbMarguerita">Marguerita (R$45,00)</string>
+    <string name="btnEscolherSabor">Escolher Sabor</string>
+
+    <string name="textTamanhoPizzaT2">Selecione o tamanho da Pizza:</string>
+    <string name="textMetodoPagamentoT2">Selecione o método de pagamento:</string>
+    <string name="cbTamanhoPizzaPequena">Pequena - 8 fatias</string>
+    <string name="cbTamnhoPizzaMedia">Média - 12 fatias</string>
+    <string name="cbTamanhoPizzaGrande">Grande - 16 fatias</string>
+    <string name="cbPagamentoDinheiro">Dinheiro</string>
+    <string name="cbPagamentoDebito">Cartão de débito</string>
+    <string name="cbPagamentoCredito">Cartão de crédito</string>
+    <string name="cbPagamentoPix">Pix</string>
+    <string name="btnFinalizar">Finalizar compra</string>
+
+    <string name="textResumoT3">Resumo do Pedido:</string>
+    <string name="btnFechar">Fechar</string>
+</resources>

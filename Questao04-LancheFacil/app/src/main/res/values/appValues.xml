@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnEntrarT1">Iniciar Pedido</string>
+    <string name="textNomeT2">Digite o seu nome:</string>
+    <string name="hintNomeT2">Nome:</string>
+    <string name="textPedidoT2">Escolha o seu pedido:</string>
+    <string name="rbPedido1T2">Hamburger</string>
+    <string name="rbPedido2T2">Sanduíche</string>
+    <string name="rbPedido3T2">Cachorro-quente</string>
+    <string name="btnFazerPedido">Fazer Pedido</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="textResumo">Resumo do pedido:</string>
+</resources>

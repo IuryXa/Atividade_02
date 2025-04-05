@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Cálculo do salário</string>
+    <string name="subtitulo">Digite o seu sálario (R$):</string>
+    <string name="hintText">R$</string>
+    <string name="porcentagem">Qual será o percentual?</string>
+    <string name="rbPercen1">40%</string>
+    <string name="rbPercen2">45%</string>
+    <string name="rbPercen3">50%</string>
+    <string name="btnTexto">Mostrar novo salário</string>
+</resources>

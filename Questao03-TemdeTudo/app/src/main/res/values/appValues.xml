@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cadastroBtnT1">Cadastrar-se</string>
+    <string name="cadastroBtnT2">Enviar cadastro</string>
+    <string name="hintNomeT2">Digite o seu nome:</string>
+    <string name="btnVoltarT3">Fechar</string>
+</resources>

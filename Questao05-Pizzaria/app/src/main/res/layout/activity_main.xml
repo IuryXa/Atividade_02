@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/textSaborPizzaT1" />
+
+    <CheckBox
+        android:id="@+id/cbCalabresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/cbCalabresa" />
+
+    <CheckBox
+        android:id="@+id/cbMarguerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/cbMarguerita" />
+
+    <CheckBox
+        android:id="@+id/cbPortuguesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/cbPortuguesa" />
+
+    <Button
+        android:id="@+id/btnEscolherSabor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:backgroundTint="#e13d00"
+        android:text="@string/btnEscolherSabor" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Sistema de Compras</string>
+    <string name="subtitulo">Escolha o seu produto:</string>
+    <!--Produtos-->
+    <string name="arroz">Arroz 1 Kg (R$2,69)</string>
+    <string name="leite">Leite longa vida (R$2,70)</string>
+    <string name="carne">Carne Friboi (R$16,70)</string>
+    <string name="feijao">Feijão carioquinha 1 Kg (R$3,38)</string>
+    <string name="refrigerante">Refrigerante coca-cola 2 litros (R$3,00)</string>
+    <!--Botão-->
+    <string name="btnCompra">Total da Compra</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:text="@string/titulo"/>
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#B9B9B9"
+        android:text="@string/subtitulo"/>
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:text="@string/arroz" />
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:text="@string/leite" />
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:text="@string/carne" />
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:text="@string/feijao" />
+
+    <CheckBox
+        android:id="@+id/cbRefrigerante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:text="@string/refrigerante" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:text="@string/btnCompra"
+        android:onClick="EscolhaCheckBox"/>
+
+</LinearLayout>

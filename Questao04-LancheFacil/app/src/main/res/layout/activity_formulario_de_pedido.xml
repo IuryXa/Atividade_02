@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormularioDePedido" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        app:srcCompat="@drawable/cardapio" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/textNomeT2" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="@string/hintNomeT2"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/textPedidoT2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbPedido1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:text="@string/rbPedido1T2" />
+
+        <RadioButton
+            android:id="@+id/rbPedido2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:text="@string/rbPedido2T2" />
+
+        <RadioButton
+            android:id="@+id/rbPedido3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:text="@string/rbPedido3T2" />
+
+        <Button
+            android:id="@+id/btnFazerPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff4200"
+            android:fontFamily="monospace"
+            android:text="@string/btnFazerPedido"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+</LinearLayout>

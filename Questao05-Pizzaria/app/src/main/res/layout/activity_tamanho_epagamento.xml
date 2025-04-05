@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TamanhoEPagamento" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/textTamanhoPizzaT2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbTamanhoPequena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbTamanhoPizzaPequena" />
+
+        <RadioButton
+            android:id="@+id/rbTamanhoMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbTamnhoPizzaMedia" />
+
+        <RadioButton
+            android:id="@+id/rbTamanhoGrande"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbTamanhoPizzaGrande" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/textMetodoPagamentoT2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbDinheiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbPagamentoDinheiro" />
+
+        <RadioButton
+            android:id="@+id/rbCredito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbPagamentoCredito" />
+
+        <RadioButton
+            android:id="@+id/rbDebito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbPagamentoDebito" />
+
+        <RadioButton
+            android:id="@+id/rbPix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="@string/cbPagamentoPix" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:backgroundTint="#e13d00"
+        android:text="@string/btnFinalizar" />
+</LinearLayout>
